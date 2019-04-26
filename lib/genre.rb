@@ -5,7 +5,6 @@ class Genre
     def initialize(name)
         @name = name
         @@all << self
-        @songs = []
     end
 
     def self.all
