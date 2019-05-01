@@ -20,11 +20,7 @@ class Doctor
   end
 
   def patients
-    self.appointments.map { |appointment|
-      # binding.pry
-      appointment.patient
-      # binding.pry
-    }
+    self.appointments.map { |appointment| appointment.patient }
   end
 
   def self.all
