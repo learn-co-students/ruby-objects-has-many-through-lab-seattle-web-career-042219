@@ -6,7 +6,6 @@ describe "Artist" do
   describe "#name" do
     it "has a name" do
       jay_z = Artist.new("Jay-Z")
-
       expect(jay_z.name).to eq("Jay-Z")
     end
   end
